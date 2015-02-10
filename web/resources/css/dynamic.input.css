@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/02/2015, 09:01:23
+    Author     : vinicius
+*/
+
+.dynamic-input {
+    border: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dynamic-input:focus {
+    border: 1px solid #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.dynamic-input-title {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dynamic-button-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dynamic-input-subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+.dynamic-input-body {
+    text-align: justify;
+    color: #333;
+}
+
+.edited {
+    visibility: hidden;
+}
+
+.editing {
+    visibility: visible;
+}

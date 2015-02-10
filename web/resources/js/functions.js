@@ -17,6 +17,27 @@ $(document).ready(function () {
     });
 });
 
+function tema1(){
+    removerTemas();
+    $("body").addClass("teme1");
+}
+function tema2(){
+    removerTemas();
+    $("body").addClass("teme2");
+}
+function tema3(){
+    removerTemas();
+    $("body").addClass("teme3");
+}
+function tema4(){
+    removerTemas();
+    $("body").addClass("teme4");
+}
+
+function removerTemas(){
+    $("body").removeClass("teme1").removeClass("teme2").removeClass("teme3").removeClass("teme4");
+}
+
 /*
  * Desabilita o botão Enviar ao clicar e habilita ao finalizar o processamento
  * @param {type} data
